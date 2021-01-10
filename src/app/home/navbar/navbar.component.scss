@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#main{
+  width: 100%;
+  height: 100vh;
+}
+
+.circle-1{
+  position: relative;
+  bottom: 227px;
+  left: 500px;
+  width: 700px;
+}
+
+nav{
+  width: 100%;
+  height: 80px;
+  line-height:100px;
+}
+nav ul{
+  float:right;
+  margin-right: 200px;
+}
+nav ul li{
+  list-style-type: none;
+  display: inline-block;
+}
+
+.link{
+  text-decoration: none;
+  color: #663399;
+  padding-left: 15px;
+  font-weight: bold;
+  padding-right: 15px;
+}
+
+.link-1,.link-2{
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.logo{
+  width: 100px;
+  height: 100px;
+  margin-left: 50px;
+}
+
+.link-1{
+  border: 2px solid #663399;
+  border-radius: 25px;
+  padding: 5px 25px 5px 25px;
+  box-shadow: 3px 4px 14px rgb(0 0 0 / 48%);
+}
+
+.link-2{
+  background-color: #663399;
+  border-radius: 25px;
+  color: #fff;
+  padding: 7px 25px 7px 25px;
+  margin-left: 8px;
+  box-shadow: 3px 4px 14px rgb(0 0 0 / 48%);
+}
+.link-1:hover{
+  background: #663399;
+  color: #fff;
+}
+.link-2:hover{
+  color: #663399;
+  background: #fff;
+}
+.circle-2{
+  position: relative;
+  width: 400px;
+    left: -800px;
+    top: -200px;
+}
+.card{
+  display: flex;
+  justify-content: space-around !important;
+  align-items: center;
+  width: 700px;
+  height: 400px;
+  position: relative;
+  left: 555px;
+  bottom: 455px;
+
+}
+
+.card-content-1{
+  width: 350px;
+  height: 450px;
+  background-color: #fff;
+  box-shadow: 3px 4px 14px rgb(0 0 0 / 13%);
+  border-radius: 15px;
+}
+
+form{
+  position: relative;
+  top: 143px;
+}
+.mat-form-field{
+  width: 87%;
+  left: 20px;
+  bottom: -6px;
+}
+
+.toggle{
+  position: relative;
+  bottom: -5px;
+  left: 17px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-content-2{
+  font-family: 'Montserrat', sans-serif;
+  width: 200px;
+  height: 250px;
+  background: #663399;
+  position: relative;
+  left: -70px;
+  border-bottom-right-radius: 13px;
+  border-top-right-radius: 13px;
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    box-shadow: 3px 4px 14px rgb(0 0 0 / 48%);
+}
+
+.card-data{
+  position: relative;
+  bottom: 300px;
+}
+
+.card-1{
+  position: relative;
+  margin-left: 65px;
+}
+
+.heading h2{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+.card-content-2 a{
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  color:#663399;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  padding: 5px 20px;
+  background: #fff;
+  font-weight: 700;
+  font-size: 11px;
+  box-shadow: 3px 4px 14px rgb(0 0 0 / 18%);
+}
+
+.card-content-2 p{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 11px;
+}
+
+i{
+  font-size: 20px;
+    margin-right: 7px;
+    font-weight: 600;
+}
+
+
+.box{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+    align-items: flex-start;
+  width: 80%;
+  margin-left: 31px;
+  margin-top: -143px;
+  padding-top: -18px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.head{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.inner-para{
+  margin-bottom: -1px;
+  font-weight: 900;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.box-1{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+    align-items: flex-start;
+  width: 80%;
+  margin-left: 31px;
+  margin-top: 5px;
+  padding-top: -18px;
+}
+
+.ng5-slider{
+  margin: 18px 0 15px !important;
+}
+
+.mat-slide-toggle.mat-checked .mat-slide-toggle-thumb {
+  background-color: #fff !important;
+}
+
+.mat-slide-toggle.mat-checked .mat-slide-toggle-bar {
+  background-color: #663399 !important;
+}
+.ng5-slider .ng5-slider-pointer {
+  background-color: #eee !important;
+  width: 15px !important;
+    height: 15px !important;
+    top: -5px !important;
+}
+.ng5-slider .ng5-slider-pointer:after {
+  background-color: #663399 !important;
+  top: 4px !important;
+  left: 4px !important;
+
+}
+
+.ng5-slider .ng5-slider-selection{
+  background-color: #663399 !important;
+}
+
+.mat-form-field-appearance-fill .mat-form-field-flex {
+  background-color: rgba(255,255,255,.4);
+}
+
+.box-content,.mat-form-field{
+  font-family: 'Montserrat', sans-serif !important;
+}

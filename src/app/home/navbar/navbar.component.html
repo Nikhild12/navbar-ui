@@ -1,0 +1,73 @@
+<div id="main">
+  <nav>
+    <img class="logo" src="../../../assets/images/logo.png" alt="" srcset="">
+    <ul>
+      <li><a class="link" href="#">Products</a></li>
+      <li><a class="link" href="#">Solutions</a></li>
+      <li><a class="link" href="#">Pricing</a></li>
+      <li><a class="link-1" href="#">Login</a></li>
+      <li><a class="link-2" id="get" href="#">Get Started</a></li>
+    </ul>
+  </nav>
+  <img class="circle-1" src="../../../assets/svg/circle.svg" alt="" srcset="">
+
+  <img class="circle-2" src="../../../assets/svg/blob-small.svg" alt="">
+
+</div>
+<div class="card-data">
+
+<div class="card-1">
+  <div class="heading">
+     <h2>We make it Super <br>Simple</h2>
+  </div>
+  <img style="width: 400px;" src="../../../assets/images/collect_img-video.png" alt="" srcset="">
+</div>
+<div class="card">
+  <div class="card-content-1">
+    <div class="head">
+      <p>Eligibilty Calculator</p>
+    </div>
+    <form>
+      <div class="box">
+        <p class="box-content">Monthly Income</p>
+        <p class="box-content inner-para"><i class="fas fa-rupee-sign" style="font-size: 12px;"></i>{{highValue}}</p>
+        <ng5-slider [(value)]="value" [(highValue)]="highValue" [options]="options"></ng5-slider>
+      </div>
+      <div class="box-1">
+        <p class="box-content">Monthly Expense</p>
+        <p class="box-content inner-para"><i class="fas fa-rupee-sign" style="font-size: 12px;"></i>{{newHighValue}}</p>
+        <ng5-slider  [(value)]="newValue" [(highValue)]="newHighValue" [options]="newOptions"></ng5-slider>
+      </div>
+      <mat-form-field appearance="fill">
+        <mat-label>Repayment Revenue</mat-label>
+        <mat-select [(ngModel)]="selectedValue" name="food">
+          <mat-option *ngFor="let food of foods" [value]="food.value">
+            {{food.viewValue}}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+      <div class="toggle">
+        <p style="font-family: 'Montserrat', sans-serif;">Do You Have any existing Loans? &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<mat-slide-toggle></mat-slide-toggle></p>
+      </div>
+      <mat-form-field class="example-full-width">
+        <mat-label>EMI of Existing loan(optional)</mat-label>
+        <input type="text" matInput >
+      </mat-form-field>
+    </form>
+  </div>
+  <div class="card-content-2">
+    <div>
+      <p>Loan Amount</p>
+     <p style="font-size: 25px;"> <i class="fas fa-rupee-sign"></i>1,00,00</p>
+    </div>
+    <div>
+      <p>Your EMI will be</p>
+      <p style="font-size: 25px;"><i class="fas fa-rupee-sign"></i>15,000</p>
+    </div>
+    <a href="#">GET MONEY</a>
+  </div>
+</div>
+</div>
+
+
+
